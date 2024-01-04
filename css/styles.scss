@@ -21,6 +21,13 @@ h2 {
    color: $color-primary;
 }
 
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
 header {
     padding: 30px;
     background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
